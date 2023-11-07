@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGODB_URI)
   .catch((err) => console.log(err))
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/users/users');
 
 var app = express();
 
